@@ -1,0 +1,31 @@
+version: "2.1"
+
+volumes:
+  weights: {}
+  data-db: {}
+  tailscale: {}
+
+services:
+  serge:
+    image: ghcr.io/nsarrazin/serge:0.1.2
+    ports:
+      - 80:8008/tcp
+    volumes:
+      - weights:/usr/src/app/weights
+      - data-db:/data/db/
+
+  tailscale:
+    build: tailscale
+    network_mode: host
+    restart: on-failure
+    volumes:
+      - tailscale:/var/lib/tailscale
+    labels:
+      - io.balena.features.kernel-modules=1
+    cap_add:
+      - net_admin
+      - net_raw
+      - sys_module
+    tmpfs:
+      - /tmp
+      - /var/run/
