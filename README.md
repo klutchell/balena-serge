@@ -4,7 +4,7 @@ A chat interface based on llama.cpp for running Alpaca models.
 
 Entirely self-hosted, no API keys needed. Fits on 4GB of RAM and runs on the CPU.
 
-You can read more on the [official project README](https://github.com/nsarrazin/serge).
+You can read more on the [official project README](https://github.com/serge-chat/serge).
 
 ## Hardware required
 
@@ -41,7 +41,7 @@ Once your device joins the fleet you'll need to allow some time for it to downlo
 
 When it's done you should be able to access the app on port 80 of the device.
 
-You can read more on the [official project README](https://github.com/nsarrazin/serge).
+You can read more on the [official project README](https://github.com/serge-chat/serge).
 
 ## Extras
 
