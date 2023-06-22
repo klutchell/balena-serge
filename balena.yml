@@ -1,6 +1,6 @@
 name: "Serge"
 type: "sw.application"
-version: 0.1.3
+version: 0.2.3
 description: >-
   LLaMA made easy
 post-provisioning: >-
