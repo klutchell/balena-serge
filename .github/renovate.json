@@ -2,10 +2,10 @@
   "extends": [
     "config:recommended"
   ],
-  "patch" {
+  "patch": {
     "automerge": true
   },
-  "minor" {
+  "minor": {
     "automerge": true
   },
   "packageRules": [
