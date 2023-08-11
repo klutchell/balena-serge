@@ -43,12 +43,6 @@ When it's done you should be able to access the app on port 80 of the device.
 
 You can read more on the [official project README](https://github.com/serge-chat/serge).
 
-## Extras
-
-### Tailscale
-
-Included is a [Tailscale block](https://github.com/klutchell/balena-tailscale) in order to access your app from anywhere!
-
 ## Contributing
 
 Please open an issue or submit a pull request with any features, fixes, or changes.
