@@ -29,7 +29,8 @@
           "balena.yml"
         ],
         "executionMode": "update"
-      }
+      },
+      "automerge": false
     }
   ]
 }
