@@ -6,7 +6,7 @@ volumes:
 
 services:
   serge:
-    image: ghcr.io/serge-chat/serge:0.7.0@sha256:476b43271b3328932157ef754fa49d7e059812a6aebe5ad65d2351595206495e
+    image: ghcr.io/serge-chat/serge:0.8.1@sha256:2545e3d1efe793510e276476de662fffa4e7db0b01a6a18ddf8d68a20f08220c
     ports:
       - 80:8008/tcp
     volumes:
